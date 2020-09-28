@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_path"
+    app:startDestination="@id/girisPlace">
+
+    <fragment
+        android:id="@+id/girisPlace"
+        android:name="com.techno.karaisalgezirehberi.GirisPlace"
+        android:label="fragment_giris_place"
+        tools:layout="@layout/fragment_giris_place" >
+        <action
+            android:id="@+id/action_girisPlace_to_firstPlace"
+            app:destination="@id/firstPlace" />
+        <action
+            android:id="@+id/action_girisPlace_to_secondPlace"
+            app:destination="@id/secondPlace" />
+        <action
+            android:id="@+id/action_girisPlace_to_thirdPlace"
+            app:destination="@id/thirdPlace" />
+        <action
+            android:id="@+id/action_girisPlace_to_fifthPlace"
+            app:destination="@id/fifthPlace" />
+        <action
+            android:id="@+id/action_girisPlace_to_fourthPlace"
+            app:destination="@id/fourthPlace" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstPlace"
+        android:name="com.techno.karaisalgezirehberi.FirstPlace"
+        android:label="fragment_first_place"
+        tools:layout="@layout/fragment_first_place" >
+        <action
+            android:id="@+id/action_firstPlace_to_girisPlace"
+            app:destination="@id/girisPlace" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondPlace"
+        android:name="com.techno.karaisalgezirehberi.SecondPlace"
+        android:label="fragment_second_place"
+        tools:layout="@layout/fragment_second_place" >
+        <action
+            android:id="@+id/action_secondPlace_to_girisPlace"
+            app:destination="@id/girisPlace" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdPlace"
+        android:name="com.techno.karaisalgezirehberi.ThirdPlace"
+        android:label="fragment_third_place"
+        tools:layout="@layout/fragment_third_place" >
+        <action
+            android:id="@+id/action_thirdPlace_to_girisPlace"
+            app:destination="@id/girisPlace" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthPlace"
+        android:name="com.techno.karaisalgezirehberi.FourthPlace"
+        android:label="fragment_fourth_place"
+        tools:layout="@layout/fragment_fourth_place" >
+        <action
+            android:id="@+id/action_fourthPlace_to_girisPlace"
+            app:destination="@id/girisPlace" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifthPlace"
+        android:name="com.techno.karaisalgezirehberi.FifthPlace"
+        android:label="fragment_fifth_place"
+        tools:layout="@layout/fragment_fifth_place" >
+        <action
+            android:id="@+id/action_fifthPlace_to_girisPlace"
+            app:destination="@id/girisPlace" />
+    </fragment>
+</navigation>

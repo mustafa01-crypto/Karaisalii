@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature"
+    tools:context=".FifthPlace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="KARAPINAR PARKI"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:src="@drawable/park" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Karapınar Parkı, Adana Karaisalı ilçesine
+bağlıdır. Hafta sonlarınızı sevdiklerinizle, ailenizle
+birlikte geçirmek için burayı tercih edebilirsiniz.
+Alanda çocuklar için oyun alanları, yürüyüş parkurları
+, piknik masaları, mesire alanları bulunmaktadır.
+Doğayla iç, içe huzurlu ve sakin bir gün geçirmek için ideal bir yer
+. Arkadaşlarınızla birlikte burada oyun oynayabilirsiniz. Mendil kapmaca, çuval yarışı, halat çekme gibi oyunlarla gününüze heyecan katabilir, eğlenebilirsiniz. Kültür gezisi kapsamında geleceğiniz Adana’da bir
+çok tarihi ve kültürel yerler bulunmaktadır.
+Burada bütçenize uygun olarak konaklayabileceğiniz tesisler bulunmaktadır. Buraya gelmişken Adana’nın lezzetli mutfağından yemeklerin tadına bakabilirsiniz. Yöreye özgü organik ürünlerden kendinize ve sevdiklerinize satın alabilirsiniz."
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/karapınarMaps"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:onClick="karapinarMaps"
+            android:background="@drawable/button"
+            android:text="HARITADA GOSTER"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

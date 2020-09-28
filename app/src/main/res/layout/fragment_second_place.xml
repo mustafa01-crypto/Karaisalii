@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature"
+    tools:context=".SecondPlace">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="KAPIKAYA KANYONU"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/knayon3"
+        android:contentDescription="todo" />
+
+    <TextView
+        android:id="@+id/kanyon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Karaisalı İlçesi sınırları içerisinde Kapıkaya Köyü’nde yer alan Kapıkaya Kanyonu, Adana’ya 72 kilometre, Karaisalı İlçe Merkezi'ne 5 kilometre uzaklıkta yer almaktadır. Yaklaşık 200 metre yüksekliğinde olan kanyonun ortasından Niğde-Ulukışla’dan doğan Çakıt Çayı geçmektedir. Kapıkaya Kanyonu doğa yürüyüşü, yamaç tırmanışı ve fotoğraf meraklılarının mutlaka görmeleri gereken doğal bir güzelliktir. 7 bin 250 metre yürüyüş güzergahı bulunan kanyonun 400 metresinde güvenlik amaçlı korkuluk bulunmaktadır."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonKanyon"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:onClick="kanyonMaps"
+        android:text="haritada goster"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>

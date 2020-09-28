@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature"
+    tools:context=".FourthPlace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/varda"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VARDA KÖPRÜSÜ"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:src="@drawable/varda"
+            android:contentDescription="todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="15dp"
+            android:text="Adana-Ankara istikametinde, Karaisalı İlçesi Hacıkırı Köyü'nün yaklaşık bir kilometre güney batısında bulunan Varda Köprüsü halk tarafından Koca Köprü diye anılmaktadır. Osmanlı Hükümdarı 2. Abdülhamit ile Alman İmparatoru Kaiser Wilhem tarafından imzalanan sözleşme ile İstanbul-Bağdat-Hicaz demiryolu hattını tamamlamak üzere 1907-1912 yıllarında inşa edilmiştir.  Köprü 99 metre yüksekliğinde ve 172 metre uzunluğunda olup derin bir vadiyi birbirine bağlamaktadır. Varda Köprüsünün bir diğer önemli ve ilginç özelliği ise düz bir köprü olmayıp virajlı olmasıdır. "
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/vardaMaps"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+            android:onClick="vardaMaps"
+            android:text="haritada_goster"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

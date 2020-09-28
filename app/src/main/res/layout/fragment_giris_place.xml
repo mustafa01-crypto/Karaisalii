@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nature"
+    android:orientation="vertical"
+    tools:context=".GirisPlace">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/kapak2"
+        android:contentDescription="todo" />
+
+    <Button
+        android:id="@+id/buttonThird"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="yerkopru"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <Button
+        android:id="@+id/buttonFourth"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="varda köprüsü"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <Button
+        android:id="@+id/buttonFifth"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="karapınar parkı"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/buttonSecond"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="kapıkaya kanyonu"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/buttonFirst"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="dokuzoluk"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+
+
+
+</LinearLayout>

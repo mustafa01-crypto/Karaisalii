@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature"
+    tools:context=".FirstPlace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DOKUZOLUK"
+            android:textSize="30sp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/dokuzoluk" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:text="Karaisalı ilçesinde bulunan alana direk toplu taşıma yoktur. Bunun için özel aracınızla direk Karaisalı ilçesine gideceksiniz. Buradan Kızıldağ Yaylası yolundan devam edecek ve sonra da yol ayrımından sağ tarafa doğru ilerleyerek Dokuzoluk yönüne doğru devam edeceksiniz. Dokuzoluk Kanyonu piknik alanı olduğu için özellikle hafta sonları çok fazla ziyaretçiye ev sahipliği yapıyor. Bu nedenle kamp yapmak isteyenlerin hafta içini tercih etmeleri önerilir. Muhteşem bir doğa eseri olan bu kanyon, çadırınızı kurup kamp yapacağınız muhteşem yerlerden biridir. Kamp yapmak için gelmeseniz bile mutlaka görmek amacıyla gitmenizi tavsiye ederim. Dokuzoluk Kanyonu Kamp Alanı WC, Duş ve Market İmkanı Dokuzoluk’ta piknik masaları, tuvalet, çeşme ve mangal yapma yerleri bulunmaktadır. Giderken yiyecek ve içeceklerinizi yanınızda götürerek bu muhteşem doğa harikasında güzel bir kamp geçirebilirsiniz."
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/konumDokuzoluk"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+            android:onClick="konumDokuzoluk"
+            android:text="HARITADA GOSTER" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
